@@ -1,0 +1,234 @@
+body{
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.color{
+  background-color: white;
+}
+#turn{
+  position: absolute;
+  left: 18%;
+  top:15%;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+.container .box:hover{background: rgba(10,10,10,0.5);
+                      color: #fff
+                     }
+
+    #box1{
+
+      background-color:#e9d3bb;
+      position:absolute;
+      top: 25%;
+      left: 20%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box2{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 25%;
+      left: 26.3%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box3{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 25%;
+      left: 32.6%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box4{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 37.9%;
+      left: 20%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box5{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 37.9%;
+      left: 26.3%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box6{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 37.9%;
+      left: 32.6%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box7{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 50.8%;
+      left: 20%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box8{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 50.8%;
+      left: 26.3%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+    #box9{
+            background-color:#e9d3bb;
+      position:absolute;
+      top: 50.8%;
+      left: 32.6%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #000;
+      text-align: center;
+      line-height: 100px;
+        font-size: 30px;
+    }
+#winner{
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  font-size: 175%;
+}
+#x_mark{
+color: black;
+position: absolute;
+left: 50%;
+top: 20%;
+}
+
+#o_mark{
+color: black;
+}
+#btn{
+  border-radius: 15px;
+  position: absolute;
+  top: 66%;
+  left: 20%;
+width: 9.5%;
+height: 8%;
+background-color: #ad6f6f;
+color: white;
+font-size: 132%;
+}
+#btn1{
+  border-radius: 15px;
+  position: absolute;
+  top: 66%;
+  left: 29.5%;
+width: 9.5%;
+height: 8%;
+background-color: #ad6f6f;
+color: white;
+font-size: 132%;
+}
+
+
+#wins1{
+  position: absolute;
+  top: 26%;
+  left: 57%;
+  font-size: 25px;
+  background:-webkit-linear-gradient(#842a2a, #5cef39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#wins2{
+  position: absolute;
+  top: 32%;
+  left: 57%;
+  font-size: 25px;
+  background:-webkit-linear-gradient(#842a2a, #5cef39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#txt1{
+  position: absolute;
+  top: 26%;
+  left: 67%;
+  font-size: 25px;
+  border: 0px;
+  background: none;
+}
+#txt2{
+  position: absolute;
+  top: 32%;
+  left: 67%;
+  font-size: 25px;
+  border: 0px;
+  background: none;
+}
+
+#tie{
+  position: absolute;
+  top: 38%;
+  left: 58%;
+  font-size: 25px;
+  background:-webkit-linear-gradient(#842a2a, #5cef39);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#ties{
+  position: absolute;
+  top: 38%;
+  left: 67%;
+  font-size: 25px;
+  border: 0px;
+  background: none;
+}
+#turn{
+  position: absolute;
+  margin-top: 100px;
+      font-style: italic;
+      font-family: serif;
+      background:-webkit-linear-gradient(#842a2a, #5cef39);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+#btn:hover{
+  color:green;
+}
+#btn1:hover{
+  color:green;
+}
